@@ -9,7 +9,8 @@
     "lint": "eslint \"**/*.ts\"",
     "lint:fix": "eslint \"**/*.ts\" --fix",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "files": [
     "dist"
